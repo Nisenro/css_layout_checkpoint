@@ -1,0 +1,237 @@
+* {
+  font-family: Roboto, sans-serif;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+#navbar {
+  display: flex;
+  height: 70px;
+  width: 100%;
+  justify-content: space-between;
+  position: fixed;
+  align-items: center;
+  font-weight: 400;
+  padding: 10px;
+  background: #fff;
+  box-shadow: 0px 2px rgb(231, 225, 225);
+  z-index: 1;  
+}
+
+.logodocplanner {
+  height: 33px;
+  width: 268px;
+  margin-left: 130px;
+}
+
+#navlinks {
+  padding-top: 10px;
+  display: flex;
+  justify-content: space-between;
+  width: 260px;
+  margin-right: 100px;
+  list-style: none;
+}
+
+#navlinks a {
+  text-decoration: none;
+  color: #ababab;
+  font-size: 15px;
+  font-weight: 400;
+}
+
+#navlinks a:hover {
+  color: #01B39B;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+}
+
+.dropdown-content a {
+  background-color: #fff;
+  padding: 15px 15px 10px;
+  width: 180px;
+  color: #ababab;
+  border: none;
+  text-align: left;
+  display: block;
+  margin: auto;
+}
+
+.dropdown-content a:hover {
+  color: #01B39B;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropbtn {
+  cursor: pointer;
+  color: #ababab;
+  text-align: center;
+}
+
+.dropbtn:hover {
+  color: #01B39B;
+}
+
+.single-logo {
+  margin-right: auto;
+  margin-left: auto;
+  display: block;
+  padding-top: 100px;
+  padding-bottom: 20px;
+  width: 3%;
+}
+
+.slogan1 {
+  font-weight: 100;
+  letter-spacing: 2px;
+  text-align: center;
+  color: #01B39B;
+  margin-bottom: 30px;
+  margin-top: 20px;
+}
+
+
+.grid {
+  display: flex;
+  flex-wrap: no-wrap;
+
+}
+
+.col1 {
+  text-align: left;
+  margin: 25px 20px 15px;
+  line-height: 1.75;
+  padding: 0px 15px 0px;
+  font-family: Roboto,Arial,sans-serif;
+  color: #ababab
+}
+
+.triplebox {
+  height: 345px;
+  margin-top: 90px;
+  margin-bottom: 90px;
+  padding: 0 60px;
+}
+
+.box {
+   border-radius: 10px;
+   width: 311px;
+   height: 345px;
+   padding: 2em 2em 0;
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+}
+
+.box-icon {
+  max-width: 100%;
+  height: auto;
+}
+
+.box-title {
+  font-size: 1.625em;
+  font-weight: 400;
+  color: #fff;
+  margin: 0.3em 0;
+}
+
+.box-text {
+  font-size: 1.5em;
+  font-weight: 300;
+  line-height: 1.2em;
+  color: #fff;
+}
+
+.custom-dropdown {
+  margin-bottom: 35px;
+  /* background-color: transparent; */
+}
+
+
+.custom-dropdown .btn:hover,
+.custom-dropdown .btn:active,
+.custom-dropdown .btn:focus {
+  border-color: transparent;
+}
+
+.green-box {
+  background-color:#01B39B;
+}
+
+.blue-box {
+  background-color: #4e8ee2;
+}
+
+.mb-0 {
+  margin-bottom: 0;
+}
+
+.navy-box {
+  background-color: #323d49;
+}
+
+.custom-dropdown li a {
+  text-decoration: none;
+  color: rgb(37, 36, 36);
+}
+
+.brand-names {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.brand-names a {
+  margin: 20px;
+  padding: 10px;
+}
+
+.brand-names a svg {
+  height: 20px;
+  width: auto;
+  max-width: 100%;
+}
+
+.text-section {
+  float: left;
+  width: 20%;
+  color: #01B39B;
+}
+
+.row-section {
+width: 80%;
+fill: #ababab;
+text-align: center;
+}
+
+.row-section:hover {
+  color: #01B39B;
+}
+
+.logorow1 .logorow2 {
+  display: inline-flex;
+  justify-content: space-around;
+  color: #ababab;
+
+}
+
+.green-container {
+  background-color: #dbf7f6;
+  background-image: url('https://salwa-essid.github.io/docplanner/logo.png');
+  background-size: 50%;
+  background-repeat: no-repeat;
+  background-position: bottom left;
+}
+
+.openings-section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-top: 60px;
+}
